@@ -32,8 +32,7 @@ def tile(seed, size=44):
     for r in range(5):
         for c in range(5):
             mc = min(c, 4 - c)
-            on = ((d[(r * 3 + mc) % 16] >> (r % 2)) & 1) | \
-                 ((d[(r * 5 + mc + 7) % 16] >> (mc % 2)) & 1)
+            on = d[(r * 3 + mc) % 16] % 3 != 0      # ~66% fill, dense motif
             cells.append(f'<i style="background:{fg if on else "transparent"}"></i>')
     return (f'<span class="tile" style="width:{size}px;height:{size}px">'
             + "".join(cells) + "</span>")
@@ -136,8 +135,8 @@ h1{{font-size:30px;letter-spacing:-.5px;line-height:1.15}}
 h1 .ten{{color:var(--blue)}}
 .sub{{margin-top:8px;max-width:560px;color:#333}}
 .author{{margin-top:10px;font-weight:700;font-size:13px}}
-.tile{{display:inline-block;position:relative;background:#fff;border:1.2px solid var(--ink)}}
-.tile i{{position:absolute;width:20%;height:20%}}
+.tile{{display:inline-grid;grid-template-columns:repeat(5,1fr);background:#fff;border:1.2px solid var(--ink)}}
+.tile i{{display:block}}
 .tgrid{{display:grid;gap:5px}}
 section{{background:#fff;border:1.6px solid var(--ink);box-shadow:6px 6px 0 var(--blue);padding:20px;margin-bottom:20px}}
 h2{{font-size:12px;letter-spacing:2px;text-transform:uppercase;display:flex;align-items:center;gap:10px;margin-bottom:12px}}
