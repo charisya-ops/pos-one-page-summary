@@ -1,0 +1,120 @@
+{
+  "meta": {
+    "title_prefix": "",
+    "title_number": "10",
+    "title_rest": "Market Leader Software POS di Indonesia",
+    "subtitle": "Analisis pemimpin pasar point-of-sale berdasarkan pangsa adopsi, ekosistem produk, harga, dan kesesuaian segmen - dirangkum dari 15 sumber yang dapat diverifikasi.",
+    "author": "Charisya Qatrunnada",
+    "date": "17 NOVEMBER 2026",
+    "chips": ["ONE PAGE SUMMARY", "RISET PASAR", "17 NOVEMBER 2026", "15 SUMBER"]
+  },
+  "executive_summary": [
+    "Pasar POS Indonesia didominasi oleh pemain lokal berbasis ",
+    {"b": "SaaS cloud"},
+    " yang berfokus pada UMKM dan industri F&B. ",
+    {"b": "Moka POS"},
+    " (bagian grup GoTo/Gojek sejak 2017) dipandang sejumlah sumber sebagai ",
+    {"b": "market leader berdasarkan skala dan pangsa adopsi"},
+    " - mengklaim melayani 45.000+ bisnis di 200+ area dan ditampilkan sebagai pilihan utama di mayoritas artikel perbandingan. ",
+    {"b": "Majoo"},
+    " menyusul dengan klaim 45.000+ wirausaha di 600 kota dan ekosistem bisnis paling luas (pembayaran, permodalan, supply). Sementara ",
+    {"b": "Qasir"},
+    " memimpin segmen entry-level berkat paket gratisnya. Pesaing kuat lain datang dari ",
+    {"b": "ESB"},
+    " (spesialis F&B), ",
+    {"b": "Pawoon"},
+    " (pionir cloud POS), dan ",
+    {"b": "HashMicro"},
+    " (segmen enterprise/ERP). Tidak ada sumber independen yang mempublikasikan data pangsa pasar kuantitatif - ranking disusun dari frekuensi rekomendasi, klaim resmi perusahaan, dan kesesuaian segmen."
+  ],
+  "key_findings": [
+    {"t": "Pasar didominasi pemain lokal", "d": "Moka, Majoo, Qasir, ESB, Pawoon, Olsera - pemain global seperti Square & Loyverse dinilai belum optimal untuk Indonesia (Inticore, 2026)."},
+    {"t": "Moka paling sering direkomendasikan", "d": "Muncul sebagai rekomendasi utama lintas sumber, didukung ekosistem Gojek & klien enterprise (program ritel Unilever)."},
+    {"t": "Majoo paling agresif di UMKM", "d": "Ekosistem all-in-one termasuk Pay (QRIS), Capital (pembiayaan), dan Supplis (procurement)."},
+    {"t": "Kisaran harga kompetitif", "d": "Dari gratis (Qasir, Loyverse, majoolite) hingga sekitar Rp299rb/outlet/bulan (Moka, Pawoon Pro)."},
+    {"t": "Pembeda utama 2025-2026", "d": "QRIS & pembayaran cashless, mode offline, omnichannel (marketplace/GoFood/Grab), dan manajemen multi-outlet."},
+    {"t": "Segmen enterprise berbeda kelas", "d": "Dilayani HashMicro (POS terintegrasi ERP) - kategori terpisah dari POS UMKM."}
+  ],
+  "key_insights": [
+    {"icon": "SKALA", "title": "Skala = kepercayaan", "body": "Moka & Majoo saling mengklaim 45 ribu+ pengguna; keduanya jauh di depan pemain niche dalam jejak distribusi.", "color": "blue"},
+    {"icon": "HARGA", "title": "Harga bukan penentu utama", "body": "Total biaya vs fitur yang benar-benar dipakai - paket mahal belum tentu unggul untuk usaha sederhana.", "color": "red"},
+    {"icon": "OFFLINE", "title": "Offline jadi isu klasik", "body": "POS cloud dominan; hanya sebagian (Qasir, iReap, kasir.mu, Loyverse) menawarkan ketahanan offline penuh.", "color": "green"}
+  ],
+  "top10": [
+    {"rank": 1, "name": "Moka POS", "company": "PT Moka Teknologi Indonesia (grup GoTo/Gojek, est. 2014)", "tier": "MARKET LEADER",
+     "desc": "POS cloud multi-platform paling mapan; kasir, stok, CRM, laporan real-time, integrasi GoFood & pembayaran digital. Dipercaya 45.000+ bisnis termasuk program ritel Unilever.",
+     "tags": ["F&B + Ritel + Salon", "Cloud + iOS/Android", "Multi-outlet"]},
+    {"rank": 2, "name": "Majoo", "company": "PT Majoo Teknologi Indonesia, est. 2019", "tier": "MARKET LEADER",
+     "desc": "Ekosistem UMKM paling lengkap: POS + akuntansi, inventori, CRM, Pay (QRIS), Capital (pembiayaan), Supplis. Klaim 45.000+ wirausaha di 600 kota.",
+     "tags": ["All-in-one", "UMKM - Enterprise", "Ekosistem finansial"]},
+    {"rank": 3, "name": "Qasir", "company": "Qasir.id, est. 2015", "tier": "STRONG",
+     "desc": "Raja segmen gratis - aplikasi kasir Android/iOS paling populer untuk usaha mikro. Fitur inti gratis, upgrade Pro terjangkau, penggunaan sangat sederhana.",
+     "tags": ["Gratis", "UMKM mikro", "Multi-produk"]},
+    {"rank": 4, "name": "ESB POS", "company": "PT Esensi Solusi Buana", "tier": "STRONG",
+     "desc": "Spesialis F&B paling menyeluruh: kitchen display, antrian, QRIS, integrasi pemesanan online & loyalty. Direkomendasikan untuk restoran menengah-besar.",
+     "tags": ["F&B specialist", "Cloud/Android", "Omnichannel"]},
+    {"rank": 5, "name": "Pawoon", "company": "PT Alphanovation Digital Teknindo, est. 2014", "tier": "STRONG",
+     "desc": "Pionir cloud POS Indonesia. Interface sederhana, mode offline + online, multi-outlet, populer di kalangan kuliner. Paket mulai sekitar Rp149rb/bln.",
+     "tags": ["Kuliner", "Multi-outlet", "Ada free plan"]},
+    {"rank": 6, "name": "Olsera", "company": "Olsera Indonesia", "tier": "STRONG",
+     "desc": "Unggul di omnichannel: sinkronisasi toko offline-online (webstore bawaan) paling matang. Paket mulai sekitar Rp128-199rb/bln; multi-cabang.",
+     "tags": ["Ritel + Omnichannel", "iOS/Android/PC"]},
+    {"rank": 7, "name": "HashMicro POS", "company": "HashMicro Pte Ltd, est. 2015 (HQ Singapura, kuat di Indonesia)", "tier": "ENTERPRISE",
+     "desc": "Posisi berbeda: POS yang menyatu penuh dengan ERP (stok, akuntansi, procurement, HR). Pilihan utama retail chain & perusahaan besar.",
+     "tags": ["Enterprise", "ERP-integrated", "20+ industri"]},
+    {"rank": 8, "name": "Kasir Pintar", "company": "Kasir Pintar.id", "tier": "VALUE",
+     "desc": "Pilihan termurah yang tetap lengkap: mulai sekitar Rp55rb/bln dengan versi gratis permanen, multi-cabang, toko online & PPOB bawaan. Ringan di Android.",
+     "tags": ["Termurah", "Versi gratis", "Multi-cabang"]},
+    {"rank": 9, "name": "Loyverse POS", "company": "Loyverse (global, dipakai luas oleh UMKM Indonesia)", "tier": "NICHE",
+     "desc": "POS gratis kelas dunia (170+ negara): kasir, inventori, loyalty, kitchen display - semua gratis core-nya. Kelebihan di offline mode; kekurangan: lokalitas pembayaran Indonesia terbatas.",
+     "tags": ["Gratis", "Offline mode", "Ritel/kafe kecil"]},
+    {"rank": 10, "name": "Jubelio POS", "company": "PT Jubelio Teknologi Indonesia", "tier": "NICHE",
+     "desc": "POS dengan keunggulan khas: integrasi langsung dengan marketplace (Tokopedia, Shopee, dll) via ekosistem Jubelio - cocok untuk penjual omnichannel ritel.",
+     "tags": ["Ada gratis", "Integrasi marketplace", "Ritel"]}
+  ],
+  "comparison_table": {
+    "header": ["#", "Software", "Segmen Utama", "Harga Mulai*", "Gratis?", "Platform", "Keunggulan Kunci"],
+    "rows": [
+      {"tier": "MARKET LEADER", "cells": ["1", "Moka POS", "F&B, Ritel, Salon (semua skala)", "Rp299rb/bln/outlet", "Trial 14 hari", "iOS, Android, Web", "Skala terbesar, ekosistem GoTo, klien enterprise"]},
+      {"tier": "MARKET LEADER", "cells": ["2", "Majoo", "UMKM - Enterprise, F&B/Ritel/Jasa", "Rp149-275rb/bln", "Trial 30 hari", "Android, Web", "Ekosistem all-in-one (Pay, Capital, Supplis)"]},
+      {"tier": "STRONG", "cells": ["3", "Qasir", "UMKM mikro-kecil", "Gratis - Pro", "Ya", "Android, iOS", "Gratis, mudah, multi-produk"]},
+      {"tier": "STRONG", "cells": ["4", "ESB POS", "Restoran & kafe menengah-besar", "Berlangganan (kontak)", "-", "Cloud, Android", "Kitchen display, QRIS, integrasi online order"]},
+      {"tier": "STRONG", "cells": ["5", "Pawoon", "Kuliner, multi-cabang", "Rp149-299rb/bln", "Free plan (7 tx/hari)", "iOS, Android", "Pionir cloud POS, offline+online"]},
+      {"tier": "STRONG", "cells": ["6", "Olsera", "Ritel, omnichannel", "Rp128-199rb/bln", "Trial 14 hari", "iOS, Android, PC", "Sinkronisasi offline-online terbaik"]},
+      {"tier": "ENTERPRISE", "cells": ["7", "HashMicro", "Enterprise, retail chain", "Custom (per modul)", "Demo gratis", "Web, Mobile", "POS menyatu dengan ERP lengkap"]},
+      {"tier": "VALUE", "cells": ["8", "Kasir Pintar", "UMKM kecil", "Rp55rb/bln", "Ya", "Android, PC", "Termurah dengan fitur multi-cabang"]},
+      {"tier": "NICHE", "cells": ["9", "Loyverse", "Ritel/kafe kecil", "Gratis + add-on", "Ya", "iOS, Android", "Core gratis, loyalty bawaan, offline"]},
+      {"tier": "NICHE", "cells": ["10", "Jubelio POS", "Ritel omnichannel/marketplace", "Ada paket gratis", "Ya", "Web, Android", "Integrasi marketplace satu ekosistem"]}
+    ],
+    "footnote": "*Harga adalah estimasi publik dari artikel perbandingan (HitPay, kasir.mu, Pashaal, Inticore - 2025/2026) dan dapat berubah kapan saja. Verifikasi ke situs resmi masing-masing sebelum memutuskan. Data pangsa pasar kuantitatif tidak tersedia publik dari sumber independen."
+  },
+  "recommendation": {
+    "winner": "Moka POS",
+    "badge": "PILIHAN UTAMA",
+    "why": "Moka adalah satu-satunya pemain yang secara konsisten muncul sebagai rekomendasi teratas di hampir semua sumber perbandingan, memiliki rekam jejak terlama (10+ tahun, 45.000+ bisnis di 200+ area), dukungan ekosistem GoTo/Gojek (integrasi GoFood, GoPay), bukti klien enterprise (program ritel Unilever), dan cakupan industri terluas (restoran, kafe, ritel, salon). Kekurangannya: harga tertinggi di kelasnya dan ketergantungan koneksi internet.",
+    "per_need": [
+      {"need": "UMKM baru / modal terbatas", "pick": "Qasir atau Kasir Pintar", "note": "gratis-murah, cukup untuk kasir dasar"},
+      {"need": "UMKM yang sedang tumbuh & butuh ekosistem", "pick": "Majoo", "note": "POS + permodalan + procurement dalam satu akun"},
+      {"need": "Restoran/kafe menengah-besar", "pick": "ESB", "note": "fitur F&B terdalam: kitchen display, antrian, QRIS"},
+      {"need": "Ritel omnichannel", "pick": "Olsera atau Jubelio POS", "note": "sinkron toko offline-online/marketplace"},
+      {"need": "Perusahaan besar / multi-cabang kompleks", "pick": "HashMicro", "note": "POS terintegrasi ERP"}
+    ]
+  },
+  "sources": [
+    {"name": "Moka POS", "title": "Situs resmi: Sistem Aplikasi Kasir Cloud", "url": "mokapos.com"},
+    {"name": "Majoo", "title": "Situs resmi: Aplikasi POS UMKM", "url": "majoo.id"},
+    {"name": "Qasir", "title": "Profil perusahaan & produk", "url": "qasir.id"},
+    {"name": "Pawoon", "title": "Profil perusahaan & solusi kasir", "url": "pawoon.com"},
+    {"name": "HashMicro", "title": "The Best POS Software for Retail", "url": "hashmicro.com/pos-system"},
+    {"name": "Bayarind", "title": "10 Software Restoran Terbaik", "url": "bayarind.id/blog/software-restoran-terbaik"},
+    {"name": "Nashtify", "title": "Rekomendasi Aplikasi POS Terlengkap", "url": "nashtify.com/rekomendasi-aplikasi-pos"},
+    {"name": "Jubelio", "title": "15 Software POS Gratis & Terbaik", "url": "jubelio.com/software-pos-gratis-terbaik"},
+    {"name": "HitPay", "title": "7 Aplikasi POS Gratis Terbaik Indonesia 2025", "url": "hitpayapp.com/blog/sistem-aplikasi-pos-gratis-di-indonesia"},
+    {"name": "kasir.mu", "title": "Perbandingan harga POS: Moka vs Majoo vs Qasir vs Pawoon vs Olsera", "url": "kasir.mu/en/perbandingan"},
+    {"name": "Pashaal Blog", "title": "Perbandingan Aplikasi Kasir: Moka, Olsera, Majoo, Pawoon, Kasir Pintar & Qasir", "url": "pashaaldoblog.com"},
+    {"name": "Inticore", "title": "13 Aplikasi Kasir Terbaik 2026 untuk UMKM & Retail", "url": "inticore.co.id"},
+    {"name": "Majoolite", "title": "Aplikasi kasir gratis dari Majoo untuk usaha ultra-mikro", "url": "majoolite.id"},
+    {"name": "Loyverse", "title": "Situs resmi & FAQ POS gratis", "url": "loyverse.com"},
+    {"name": "Flozic", "title": "Loyverse Review 2026: Free POS, Pricing & Cons", "url": "flozic.ai/blog/reviews/loyverse-review"}
+  ]
+}
